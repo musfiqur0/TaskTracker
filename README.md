@@ -64,18 +64,15 @@ managing tasks.
   ASP.NET Core Identity; unauthorized users are redirected to the login
   page and only authenticated users can access task pagesfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Functional%20Requirements%200,Features.
 
-* **Task list page** – Displays all tasks in a table with columns for ID,
-  title, due date, priority and completion statusfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=1,%E2%97%8F%20Sort%20by%20due%20date.  The
-  page supports searching by title via AJAXfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Features%3A%20%E2%97%8F%20Search%20by%20title,Filter%20by%20completed%20%2F%20pending, filtering
-  tasks by completed or pending statusfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=%E2%97%8F%20Filter%20by%20completed%20%2F,%E2%97%8F%20Sort%20by%20due%20date, sorting by due date
-  ascending or descendingfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=%E2%97%8F%20Sort%20by%20due%20date and toggling completion status without
-  a full page reloadfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=5,status%20without%20full%20page%20reload.
+* **Task list page** – Shows tasks in a table with columns for ID, title,
+  due date, priority and completion statusfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=1,%E2%97%8F%20Sort%20by%20due%20date.
+  Offers search by title via AJAXfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Features%3A%20%E2%97%8F%20Search%20by%20title,Filter%20by%20completed%20%2F%20pending, filters for completed or pending tasksfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=%E2%97%8F%20Filter%20by%20completed%20%2F,%E2%97%8F%20Sort%20by%20due%20date,
+  sorting by due datefile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=%E2%97%8F%20Sort%20by%20due%20date and toggling completion without reloadingfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=5,status%20without%20full%20page%20reload.
 
-* **Add task** – A form for creating a new task with server‑side
-  validation; the title is required (up to 100 characters) and you can
-  optionally provide a description, due date, priority (1–3) and completion
-  flagfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=2,required%2C%20max%20100.  Client‑side validation is enabled via jQuery
-  unobtrusive validation.
+* **Add task** – Use a form to create a new task; the title is required
+  (up to 100 characters) with optional description, due date, priority (1–3) and
+  completion flagfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=2,required%2C%20max%20100.  Client‑side validation via jQuery
+  unobtrusive validation complements server‑side checks.
 
 * **Edit task** – Allows updating all fields of an existing taskfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=3,all%20fields.
 

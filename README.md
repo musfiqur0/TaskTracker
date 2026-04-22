@@ -30,7 +30,7 @@ via Serilog and unhandled errors are captured by a simple middleware.
 4. **Apply migrations** – run either of these commands to apply the
    Entity Framework Core migrations contained in the `Data/Migrations`
    folder.  These migrations create the ASP.NET Core Identity tables
-   required by the specificationfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Functional%20Requirements%200,Features:
+   required by the specification:
 
    ```bash
    dotnet ef database update
@@ -47,7 +47,7 @@ via Serilog and unhandled errors are captured by a simple middleware.
    connect to the master database and create the database specified in your
    connection string if it does not already exist.  It subsequently ensures
    a `Tasks` table exists with columns (Id, Title, Description, DueDate,
-   Priority, IsCompleted and CreatedAt) as defined in the specificationfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Database%20Design%20Table%3A%20Tasks%20CREATE,DATETIME%20NOT%20NULL%20DEFAULT%20GETDATE.
+   Priority, IsCompleted and CreatedAt) as defined in the specification.
 5. **Run the app**:
    ```bash
    dotnet run
@@ -62,33 +62,33 @@ managing tasks.
 
 * **User authentication** – Registration, login and logout are handled via
   ASP.NET Core Identity; unauthorized users are redirected to the login
-  page and only authenticated users can access task pagesfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Functional%20Requirements%200,Features.
+  page and only authenticated users can access task pages.
 
 * **Task list page** – Shows tasks in a table with columns for ID, title,
-  due date, priority and completion statusfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=1,%E2%97%8F%20Sort%20by%20due%20date.
-  Offers search by title via AJAXfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Features%3A%20%E2%97%8F%20Search%20by%20title,Filter%20by%20completed%20%2F%20pending, filters for completed or pending tasksfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=%E2%97%8F%20Filter%20by%20completed%20%2F,%E2%97%8F%20Sort%20by%20due%20date,
-  sorting by due datefile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=%E2%97%8F%20Sort%20by%20due%20date and toggling completion without reloadingfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=5,status%20without%20full%20page%20reload.
+  due date, priority and completion status.  Offers search by title via
+  AJAX, filters for completed or pending tasks, sorting by due date and
+  toggling completion without reloading.
 
 * **Add task** – Use a form to create a new task; the title is required
   (up to 100 characters) with optional description, due date, priority (1–3) and
-  completion flagfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=2,required%2C%20max%20100.  Client‑side validation via jQuery
-  unobtrusive validation complements server‑side checks.
+  completion flag.  Client‑side validation via jQuery unobtrusive validation
+  complements server‑side checks.
 
-* **Edit task** – Allows updating all fields of an existing taskfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=3,all%20fields.
+* **Edit task** – Allows updating all fields of an existing task.
 
 * **Delete task** – Removes a task after a confirmation prompt
-  implemented with jQueryfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=4,confirmation%20popup%20using%20jQuery.
+  implemented with jQuery.
 
 * **Repository & service layer** – A Dapper‑based repository encapsulates
   SQL queries, and a service layer enforces business rules and validation;
   this aligns with the architecture bonus criteria for repository and
-  service layersfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Architecture%20Bonus%20%E2%97%8F%20Repository%20pattern,%E2%97%8F%20Async%20methods%20%E2%97%8F%20Logging.
+  service layers.
 
 * **Automatic database initialization** – At startup the initializer
   connects to the database server and creates the application database and
   the `Tasks` table if they do not exist; the table schema matches the
   specification with columns for Id, Title, Description, DueDate,
-  Priority, IsCompleted and CreatedAtfile:///home/oai/share/NET%20Developer%20Test-1(6).pdf#:~:text=Database%20Design%20Table%3A%20Tasks%20CREATE,DATETIME%20NOT%20NULL%20DEFAULT%20GETDATE.
+  Priority, IsCompleted and CreatedAt.
 
 * **Logging & global error handling** – Integrated Serilog writes
   structured log files under `logs/log-<date>.txt` with daily rotation

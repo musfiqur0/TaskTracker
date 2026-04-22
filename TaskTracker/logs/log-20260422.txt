@@ -1,0 +1,114 @@
+2026-04-22 21:56:07 [Information] User profile is available. Using '"C:\Users\DevMusfiqur\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-22 21:56:08 [Information] Now listening on: "https://localhost:7291"
+2026-04-22 21:56:08 [Information] Now listening on: "http://localhost:5242"
+2026-04-22 21:56:08 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-22 21:56:08 [Information] Hosting environment: "Development"
+2026-04-22 21:56:08 [Information] Content root path: "C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker"
+2026-04-22 21:56:08 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/""" - null null
+2026-04-22 21:56:08 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2026-04-22 21:56:08 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2026-04-22 21:56:08 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/""" - 302 null null 159.7449ms
+2026-04-22 21:56:08 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/Identity/Account/Login""?ReturnUrl=%2F" - null null
+2026-04-22 21:56:08 [Information] Executing endpoint '"/Account/Login"'
+2026-04-22 21:56:08 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2026-04-22 21:56:09 [Information] Executing handler method "Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync" - ModelState is Valid
+2026-04-22 21:56:09 [Information] AuthenticationScheme: "Identity.External" signed out.
+2026-04-22 21:56:09 [Information] Executed handler method "OnGetAsync", returned result "".
+2026-04-22 21:56:09 [Information] Executing an implicit handler method - ModelState is Valid
+2026-04-22 21:56:09 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2026-04-22 21:56:09 [Information] Executed page "/Account/Login" in 277.3183ms
+2026-04-22 21:56:09 [Information] Executed endpoint '"/Account/Login"'
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/Identity/Account/Login""?ReturnUrl=%2F" - 200 null "text/html; charset=utf-8" 342.0817ms
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/css/site.b9sayid5wm.css""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/TaskTracker.5c639ofeou.styles.css""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/lib/jquery/dist/jquery.min.o1o13a6vjx.js""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/js/site.xtxxf3hu2r.js""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/Identity/lib/jquery-validation/dist/jquery.validate.js""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js""" - null null
+2026-04-22 21:56:09 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/_vs/browserLink""" - null null
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executing endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 83.8614ms
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"css/site.b9sayid5wm.css"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\r2kr2md7s5-{0}-b9sayid5wm-b9sayid5wm.gz"'
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"TaskTracker.5c639ofeou.styles.css"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\wy2n1iqywi-{0}-5c639ofeou-5c639ofeou.gz"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"js/site.xtxxf3hu2r.js"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\5wfxfhyhg2-{0}-xtxxf3hu2r-xtxxf3hu2r.gz"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/css/site.b9sayid5wm.css""" - 200 700 "text/css" 128.6329ms
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/TaskTracker.5c639ofeou.styles.css""" - 200 1142 "text/css" 128.5635ms
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/js/site.xtxxf3hu2r.js""" - 200 264 "text/javascript" 122.5929ms
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\rc9glh9906-{0}-493y06b0oq-493y06b0oq.gz"'
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"lib/jquery/dist/jquery.min.o1o13a6vjx.js"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\890s9sze7h-{0}-o1o13a6vjx-o1o13a6vjx.gz"'
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"Identity/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz"'
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js""" - 200 19418 "text/javascript" 97.2441ms
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/lib/jquery/dist/jquery.min.o1o13a6vjx.js""" - 200 87576 "text/javascript" 134.753ms
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/Identity/lib/jquery-validation/dist/jquery.validate.js""" - 200 52574 "text/javascript" 128.033ms
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js""" - 200 80764 "text/javascript" 134.3636ms
+2026-04-22 21:56:09 [Information] Sending file. Request path: '"lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css"'. Physical path: '"C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\obj\Debug\net10.0\compressed\0pdx000sry-{0}-46ein0sx1k-46ein0sx1k.gz"'
+2026-04-22 21:56:09 [Information] Executed endpoint '"Microsoft.AspNetCore.Routing.RouteEndpoint"'
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css""" - 200 232871 "text/css" 140.004ms
+2026-04-22 21:56:09 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 111.1504ms
+2026-04-22 21:56:10 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7291""""/Identity/Account/Login""?ReturnUrl=%2F" - "application/x-www-form-urlencoded" 264
+2026-04-22 21:56:10 [Information] Executing endpoint '"/Account/Login"'
+2026-04-22 21:56:10 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2026-04-22 21:56:11 [Information] Executing handler method "Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync" - ModelState is Valid
+2026-04-22 21:56:11 [Information] Executed DbCommand ("38"ms) [Parameters=["@normalizedUserName='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName"
+2026-04-22 21:56:12 [Information] Executed DbCommand ("3"ms) [Parameters=["@user_Id='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @user_Id"
+2026-04-22 21:56:12 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2026-04-22 21:56:12 [Information] User logged in.
+2026-04-22 21:56:12 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2026-04-22 21:56:12 [Information] Executing LocalRedirectResult, redirecting to "/".
+2026-04-22 21:56:12 [Information] Executed page "/Account/Login" in 1209.2471ms
+2026-04-22 21:56:12 [Information] Executed endpoint '"/Account/Login"'
+2026-04-22 21:56:12 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7291""""/Identity/Account/Login""?ReturnUrl=%2F" - 302 null null 1218.5065ms
+2026-04-22 21:56:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7291""""/""" - null null
+2026-04-22 21:56:12 [Information] Executing endpoint '"TaskTracker.Controllers.HomeController.Index (TaskTracker)"'
+2026-04-22 21:56:12 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "TaskTracker.Controllers.HomeController" ("TaskTracker").
+2026-04-22 21:56:17 [Information] Executed action "TaskTracker.Controllers.HomeController.Index (TaskTracker)" in 4871.3243ms
+2026-04-22 21:56:17 [Information] Executed endpoint '"TaskTracker.Controllers.HomeController.Index (TaskTracker)"'
+2026-04-22 21:56:17 [Error] Unhandled exception at "/". TraceId: "0HNL0GULF961B:0000001B"
+System.Exception: Test Error Exception
+   at TaskTracker.Controllers.HomeController.Index() in C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\Controllers\HomeController.cs:line 13
+   at lambda_method156(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at TaskTracker.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\DevMusfiqur\Desktop\HomeSpace\TaskTracker\TaskTracker\Middleware\ExceptionMiddleware.cs:line 21
+2026-04-22 21:56:17 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7291""""/""" - 500 null "application/json" 4922.4413ms

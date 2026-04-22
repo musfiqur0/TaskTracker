@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TaskTracker.Models.Task.TaskItem>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Due Date</th>
+            <th>Priority</th>
+            <th>Is Completed</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Title</td>
+                    <td>@(item.DueDate?.ToString("yyyy-MM-dd") ?? "")</td>
+                    <td>
+                        @(item.Priority == 1 ? "Low" :
+                          item.Priority == 2 ? "Medium" : "High")
+                    </td>
+                    <td>
+                        <input type="checkbox"
+                               class="toggle-status"
+                               data-id="@item.Id"
+                        @(item.IsCompleted ? "checked" : null) />
+                    </td>
+                    <td>
+                        <a asp-controller="Task" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                            Edit
+                        </a>
+                        <button type="button" class="btn btn-sm btn-danger delete-task" data-id="@item.Id">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No tasks found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
